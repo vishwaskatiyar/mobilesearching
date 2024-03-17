@@ -50,13 +50,14 @@ const displayPhones = (phones, isShowAll) => {
         //console.log(phone);
         //1 create a div
         const phoneCard = document.createElement('div');
-        phoneCard.classList = `card rounded-xl p-8 bg-blue-300 shadow-2xl`;
+        phoneCard.classList = `card rounded-xl p-8 bg-blue-300 shadow-2xl `;
         phoneCard.innerHTML = `
         <figure class="px-10 pt-10">
-                      <img src="${phone.image}" alt="phone" class="rounded-xl" />
+                      <img src="${phone.image}" alt="phone" class="rounded-xl mx-auto my-2" />
                     </figure>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title">${phone.phone_name}</h2>
+                      
                       <p>There are many variations of passages of available, but the majority have suffered</p>
                       <div class="card-actions">
             <div class="grid  gap-2">
