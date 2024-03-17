@@ -53,7 +53,7 @@ const displayPhones = (phones, isShowAll) => {
         phoneCard.classList = `card rounded-xl p-8 bg-blue-300 shadow-2xl `;
         phoneCard.innerHTML = `
         <figure class="px-10 pt-10">
-                      <img src="${phone.image}" alt="phone" class="rounded-xl mx-auto my-2" />
+                      <img src="${phone.image}" alt="phone" class="rounded-xl mx-auto my-1" />
                     </figure>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title">${phone.phone_name}</h2>
